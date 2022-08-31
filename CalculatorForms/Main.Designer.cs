@@ -229,7 +229,8 @@
             // txtResult
             // 
             this.txtResult.BackColor = System.Drawing.Color.Thistle;
-            this.txtResult.Location = new System.Drawing.Point(43, 58);
+            this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResult.Location = new System.Drawing.Point(43, 40);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(625, 137);

@@ -243,7 +243,7 @@
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Main";
-            this.Text = "Form1";
+            this.Text = "Calculadora";
             this.ResumeLayout(false);
 
         }

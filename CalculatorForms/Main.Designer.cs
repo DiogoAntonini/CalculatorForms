@@ -177,6 +177,7 @@
             this.bMultiplicacao.TabIndex = 10;
             this.bMultiplicacao.Text = "*";
             this.bMultiplicacao.UseVisualStyleBackColor = false;
+            this.bMultiplicacao.Click += new System.EventHandler(this.bMultiplicacao_Click);
             // 
             // bDivisao
             // 
@@ -188,17 +189,19 @@
             this.bDivisao.TabIndex = 11;
             this.bDivisao.Text = "/";
             this.bDivisao.UseVisualStyleBackColor = false;
+            this.bDivisao.Click += new System.EventHandler(this.bDivisao_Click);
             // 
             // bAdicao
             // 
             this.bAdicao.BackColor = System.Drawing.Color.Thistle;
             this.bAdicao.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.bAdicao.Location = new System.Drawing.Point(528, 525);
+            this.bAdicao.Location = new System.Drawing.Point(528, 515);
             this.bAdicao.Name = "bAdicao";
             this.bAdicao.Size = new System.Drawing.Size(140, 122);
             this.bAdicao.TabIndex = 12;
             this.bAdicao.Text = "+";
             this.bAdicao.UseVisualStyleBackColor = false;
+            this.bAdicao.Click += new System.EventHandler(this.bAdicao_Click);
             // 
             // bSubtracao
             // 
@@ -210,6 +213,7 @@
             this.bSubtracao.TabIndex = 13;
             this.bSubtracao.Text = "-";
             this.bSubtracao.UseVisualStyleBackColor = false;
+            this.bSubtracao.Click += new System.EventHandler(this.bSubtracao_Click);
             // 
             // bVirgula
             // 

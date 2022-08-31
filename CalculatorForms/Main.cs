@@ -20,73 +20,94 @@ namespace CalculatorForms
         private void button1_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "1";
+            txtResult.Text += "1";
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "2";
+            txtResult.Text += "2";
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "3";
+            txtResult.Text += "3";
 
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "4";
+            txtResult.Text += "4";
 
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "5";
+            txtResult.Text += "5";
 
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "6";
+            txtResult.Text += "6";
 
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "7";
+            txtResult.Text += "7";
 
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "8";
+            txtResult.Text += "8";
 
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "9";
+            txtResult.Text += "9";
 
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
 
-            txtResult.Text = "0";
+            txtResult.Text += "0";
 
         }
 
+        private void bMultiplicacao_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bDivisao_Click(object sender, EventArgs e)
+        {
+
+         //   txtResult.Text = Convert.ToDouble(txtResult.Text / );
+
+        }
+
+        private void bAdicao_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bSubtracao_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

@@ -241,7 +241,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(704, 894);
+            this.ClientSize = new System.Drawing.Size(704, 817);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.bVirgula);
             this.Controls.Add(this.bSubtracao);
